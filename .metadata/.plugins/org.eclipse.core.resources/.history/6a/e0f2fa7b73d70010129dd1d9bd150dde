@@ -1,0 +1,16 @@
+package ejercicios;
+
+import java.util.*;
+
+public class juliano {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<Integer> meses = new ArrayList<>(Arrays.asList(31,28,31,30,31,30,31,31,30,31,30,31));
+        List<Integer> dias = new ArrayList<>(Arrays.asList(31,28,31,30,31,30,31,31,30,31,30,31));
+        int mes = (sc.nextInt() -1 );
+        int dia = sc.nextInt();
+        
+        
+        
+    }
+}
