@@ -1,0 +1,28 @@
+{
+  "conversationId": "2237ab3d-d3dc-44d8-8483-98aaba3001a8",
+  "title": "oan s’ha enganxat al joc 2048! Porta moltes intent...",
+  "requesterUsername": "Jcanaas",
+  "responderUsername": "GitHub Copilot",
+  "turns": [
+    {
+      "message": {
+        "text": "oan s’ha enganxat al joc 2048! Porta moltes intents però mai aconsegueix formar el nombre 2048.\n\nCom ja sabeu el joc consisteix en formar el nombre 2048 a base d’anar desplaçant les caselles pel tauler cap a l’esquerra, la dreta, cap a dalt o cap a baix. Cada vegada que el jugador realitza un desplaçament, totes les caselles es desplacen en aquella direcció. Si durant el desplaçament en la direcció seleccionada es troben dos caselles consecutives amb el mateix número, les dues caselles es junten en una sola sumant els seus valors. Després de cada desplaçament, el joc genera un altra valor en qualsevol casella de les que estan buides. El joc continua fins que el jugador aconsegueix formar el número 2048.\n\nEl tauler de joc és sempre quadrat. Pot ser de 4x4, de 5x5 o superior. Quan més gran és, més fàcil és aconseguir 2048. Però Joan es distreu sovint i quan pensa que ja ho aconsegueix, es descuida, mou malament les peces i perd la partida.\n\nEntrada\nSimplifiquem el joc. Únicament es fixarem en una fila del tauler i els desplaçaments seran en horitzontal. Cap a l’esquerra (‘L’) o cap a la dreta (‘R’).\n\nL’entrada s’inicia amb un primer valor indicant els casos de prova a processar.\n\nA continuació per cada cas de prova s’indicarà un primer número amb la mida de la filera a tractar. Es garanteix que el número estarà comprès entre 4 i 10.\n\nLa següent línia està formada per una seqüència de nombres enters, separats per un espai en blanc, corresponents als valors actuals de les caselles d’aquesta filera. Els valors poden ser: 0, 2, 4, 8, 16, … Atenció: El zero (0) indica casella buida.\n\nFinalment trobareu una últimaa línia amb un caràcter (‘L’: Left, ‘R’: Right) indicant la direcció del desplaçament.\n\nSortida\nLa sortida mostrarà, per cada cas de prova, els valors de la fila, separats per un espai en blanc, després d’aplicar el desplaçament corresponent.\n\nExemple d\u0027Entrada\nCopy\n4\n4\n0 2 2 0\nL\n5\n0 2 4 4 2\nR\n4\n4 4 4 4\nL\n6\n8 4 8 0 0 0\nR\nExemple de Sortida\nCopy\n4 0 0 0\n0 0 2 8 2\n8 8 0 0\n0 0 0 8 4 8\n\n\n"
+      },
+      "currentDocument": {
+        "uri": "/Java/src/ejercicios/mini2048.java"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "GPT-5 mini",
+      "chatMode": "Ask",
+      "needToolCallConfirmation": true,
+      "turnId": "4ae65fd7-55e2-4cf0-ade4-cdc593eb935c",
+      "role": "user",
+      "timestamp": "2025-12-09T14:59:26.892566055Z"
+    }
+  ],
+  "creationDate": "2025-12-09T14:59:26.884540502Z",
+  "lastMessageDate": "2025-12-09T14:59:26.884549395Z"
+}

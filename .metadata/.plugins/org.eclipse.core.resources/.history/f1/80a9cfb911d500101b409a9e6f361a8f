@@ -1,0 +1,87 @@
+// java
+package ejercicios;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
+
+public class mini2048 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int casos = sc.nextInt();
+        for (int t = 0; t < casos; t++) {
+            int tamaño = sc.nextInt();
+            List<Integer> nums = new ArrayList<>();
+            for (int i = 0; i < tamaño; i++) nums.add(sc.nextInt());
+            String dir = sc.next();
+
+            if ("L".equals(dir)) {
+                /
+                List<Integer> compact = new ArrayList<>();
+                for (int v : nums) if (v != 0) compact.add(v);
+                while (compact.size() < tamaño) compact.add(0);
+
+                
+                Set<Integer> merged = new HashSet<>();
+                for (int i = 0; i < tamaño - 1; i++) {
+                    int cur = compact.get(i);
+                    int nxt = compact.get(i + 1);
+                    if (cur != 0 && cur == nxt && !merged.contains(i) && !merged.contains(i + 1)) {
+                        compact.set(i, cur * 2);
+                        compact.set(i + 1, 0);
+                        merged.add(i);
+                    }
+                }
+
+                List<Integer> res = new ArrayList<>();
+                for (int v : compact) if (v != 0) res.add(v);
+                while (res.size() < tamaño) res.add(0);
+
+                // print
+                for (int i = 0; i < tamaño; i++) {
+                    if (i > 0) System.out.print(" ");
+                    System.out.print(res.get(i));
+                }
+                System.out.println();
+
+            } else if ("R".equals(dir)) {
+                List<Integer> rev = new ArrayList<>();
+                for (int i = tamaño - 1; i >= 0; i--) {
+                    int v = nums.get(i);
+                    if (v != 0) rev.add(v);
+                }
+                while (rev.size() < tamaño) rev.add(0);
+
+                Set<Integer> merged = new HashSet<>();
+                for (int i = 0; i < tamaño - 1; i++) {
+                    int cur = rev.get(i);
+                    int nxt = rev.get(i + 1);
+                    if (cur != 0 && cur == nxt && !merged.contains(i) && !merged.contains(i + 1)) {
+                        rev.set(i, cur * 2);
+                        rev.set(i + 1, 0);
+                        merged.add(i);
+                    }
+                }
+
+                List<Integer> resRev = new ArrayList<>();
+                for (int v : rev) if (v != 0) resRev.add(v);
+                while (resRev.size() < tamaño) resRev.add(0);
+
+                List<Integer> finalRes = new ArrayList<>();
+                for (int i = tamaño - 1; i >= 0; i--) finalRes.add(resRev.get(i));
+
+                for (int i = 0; i < tamaño; i++) {
+                    if (i > 0) System.out.print(" ");
+                    System.out.print(finalRes.get(i));
+                }
+                System.out.println();
+
+            } else {
+                System.out.println("Error");
+            }
+        }
+        sc.close();
+    }
+}

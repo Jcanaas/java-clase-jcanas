@@ -1,0 +1,40 @@
+package ejercicios;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
+
+//Llista mutant!!  (4p)
+//Fes un programa que llegeixi, en primer lloc, una sèrie de números, separats per comes, que hauràs de transformar amb una llista.
+//A continuació aniràs rebent “comandes” que has “d’executar” sobre la llista. I per cada comanda has d’escriure com queda la llista.
+//Les comandes poden ser d’eliminar un número, o d’afegir un número, i el número en qüestió. També et diràn sobre quin “costat” has de treballar, si esquerra “e” o dreta “d”.
+//El programa acaba quan es rep un -1. Es garanteix que sempre hi haurà una comanda com a mínim.
+//Exemple:
+//0,2,4,6,8,6,4,2,0
+//+#5#e
+//-#2#e
+//-#6#d
+//+#3#d
+//-#8#e
+//-1
+
+//[5, 0, 2, 4, 6, 8, 6, 4, 2, 0]
+//[5, 0, 4, 6, 8, 6, 4, 2, 0]
+//[5, 0, 4, 6, 8, 4, 2, 0]
+//[5, 0, 4, 6, 8, 4, 2, 0, 3]
+//[5, 0, 4, 6, 4, 2, 0, 3]
+
+
+public class listamutant {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<String> llistaS = new ArrayList<>(Arrays.asList(sc.nextLine().split(",")));
+        List<Integer> llista = new ArrayList<>();
+        for(int i = 0; i < llistaS.size(); i++) {
+        	llista.add(Integer.parseInt(llistaS.get(i)));
+        }
+    }
+}

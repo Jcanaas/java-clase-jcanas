@@ -1,0 +1,35 @@
+package ejercicios;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+
+public class emmagatzpkmn {
+	Scanner sc = new Scanner()
+	public static void main(String[] args) {
+		List<String> fruites = new ArrayList<>(List.of("poema","platan","pera","poma","mango","pera"));
+		System.out.println(fruites);
+		
+		Set<String> fruitesNoDup = new HashSet(fruites);
+		List<String> llistaNoDup = new ArrayList<>(fruitesNoDup);
+		llistaNoDup.sort(null);
+		System.out.println(fruitesNoDup);
+		System.out.println(llistaNoDup);
+		
+		
+	Set<String> nouSet = new HashSet<>(List.of("poma","fresa","pera","Fresa"));
+	fruitesNoDup.addAll(nouSet);
+	System.out.println(fruitesNoDup);
+	
+	Set<String> interseccio = new HashSet<>(fruitesNoDup);
+	interseccio.retainAll(nouSet);
+	System.out.println(interseccio);
+	
+	Set<String> diferencies = new HashSet<>(fruitesNoDup);
+	diferencies.removeAll(nouSet);
+	System.out.println(diferencies);
+	
+	}
+}

@@ -1,0 +1,37 @@
+package ejercicios;
+
+import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
+
+
+public class llistacompra {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        List<String> listaCompra = new ArrayList<>();
+        while(!input.equals("A COMPRAR")){
+        	listaCompra.add(input);
+        	input = sc.nextLine();
+        }
+        
+        // ordenar lsita alfabeticamente
+        Collections.sort(listaCompra);
+        // eliminar repetidos no set NO HASH SET
+        List<String> listaSinRepetidos = new ArrayList<>();
+        for (int i = 0; i < listaCompra.size(); i++ ) {
+        	if(!listaSinRepetidos.contains(listaCompra.get(i))) {
+        		listaCompra.add(listaCompra.get(i));
+        	}
+        }
+        System.out.println(lis);
+        
+        
+        
+        
+        	
+        }
+    }
+}

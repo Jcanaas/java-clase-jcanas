@@ -1,0 +1,50 @@
+package ejercicios;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+
+public class PokemonBankListSet {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int casos = sc.nextInt();
+        int tamany = sc.nextInt();
+        for (int t = 0; t < casos; t++) {
+            List<Integer> pokedex = new ArrayList<>();
+            List<Integer> nivel = new ArrayList<>();
+            for (int i = 0; i < tamany; i++) pokedex.add(sc.nextInt());
+            for (int i = 0; i < tamany; i++) nivel.add(sc.nextInt());
+
+            List<Integer> tipos = new ArrayList<>();
+            List<Integer> nivelesMax = new ArrayList<>();
+
+            for (int i = 0; i < tamany; i++) {
+                int tipo = pokedex.get(i);
+                int lvl = nivel.get(i);
+                if (!tipos.contains(tipo)) {
+                    tipos.add(tipo);
+                    nivelesMax.add(lvl);
+                } else {
+                    int idx = tipos.indexOf(tipo);
+                    if (lvl > nivelesMax.get(idx)) {
+                        nivelesMax.set(idx, lvl);
+                    }
+                }
+            }
+
+            Set<Integer> impresos = new HashSet<>();
+            for (int i = 0; i < tamany; i++) {
+                int tipo = pokedex.get(i);
+                int lvl = nivel.get(i);
+                int idx = tipos.indexOf(tipo);
+                if (!impresos.contains(tipo) && lvl == nivelesMax.get(idx)) {
+                    System.out.print(tipo + " ");
+                    impresos.add(tipo);
+                }
+            }
+            System.out.println();
+        }
+    }
+}

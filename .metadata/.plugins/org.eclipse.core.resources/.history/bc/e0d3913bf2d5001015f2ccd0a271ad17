@@ -1,0 +1,20 @@
+package ejercicios;
+
+import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
+
+
+public class factormultiplicadorvelocitat {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int contador = 0;
+        List<int> llista = new ArrayList<>(Arraysaslist(sc.nextLine));
+        
+        
+        
+        	
+        }
+    }

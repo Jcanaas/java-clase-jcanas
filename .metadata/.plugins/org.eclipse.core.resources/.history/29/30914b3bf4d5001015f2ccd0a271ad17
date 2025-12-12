@@ -1,0 +1,39 @@
+package ejercicios;
+
+import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
+
+
+public class factormultiplicadorvelocitat {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int contador = 0;
+        List<String> llistaS = new ArrayList<>(Arrays.asList(sc.nextLine().split(",")));
+        List<Integer> llista = new ArrayList<>();
+        for(int i = 0; i < llistaS.size(); i++) {
+        	llista.add(Integer.parseInt(llistaS.get(i)));
+        }
+        int m = sc.nextInt();
+        int contador = 0;
+        List<String> llistaSv = new ArrayList<>(Arrays.asList(sc.nextLine().split(",")));
+        List<Integer> llistav = new ArrayList<>();
+        for(int i = 0; i < llistaSv.size(); i++) {
+        	llistav.add(Integer.parseInt(llistaS.get(i)));
+        }
+        for(int i = 0; i < llistaS.size(); i++) {
+        	if (llistav.get(i) >= (llista.get(i) * 3) ) {
+        		contador++;
+        	}
+        }
+        if (contador == llista.size()) {
+        	System.out.println("")
+        }
+        
+        
+        
+        	
+        }
+    }

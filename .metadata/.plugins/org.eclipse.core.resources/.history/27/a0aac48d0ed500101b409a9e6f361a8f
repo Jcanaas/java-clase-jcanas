@@ -1,0 +1,40 @@
+package ejercicios;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
+
+
+public class mini2048 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+    int casos = sc.nextInt();
+    for (int t = 0; t < casos; t++) {
+    	int tamaño = sc.nextInt();
+    			List<Integer> numeros = new ArrayList<>();
+		for (int i = 0; i < tamaño; i++) {
+			numeros.add(sc.nextInt());
+		}
+
+		// Crear un conjunto para almacenar los números únicos
+		Set<Integer> numerosUnicos = new HashSet<>(numeros);
+
+		// Convertir el conjunto de nuevo a una lista y ordenarla
+		List<Integer> listaOrdenada = new ArrayList<>(numerosUnicos);
+		listaOrdenada.sort(null);
+
+		// Imprimir los números únicos en orden ascendente
+		for (Integer num : listaOrdenada) {
+			System.out.print(num + " ");
+		}
+		System.out.println();
+    }
+        
+        
+        
+        
+        sc.close();
+    }
+}

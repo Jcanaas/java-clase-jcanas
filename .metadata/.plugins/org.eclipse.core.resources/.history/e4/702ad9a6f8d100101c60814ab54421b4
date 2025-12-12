@@ -1,0 +1,51 @@
+package ejercicios;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+
+public class PokemonBankListSet {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int casos = sc.nextInt();
+        int tamany = sc.nextInt();
+        for (int t = 0; t < casos; t++) {
+            List<Integer> pokemons = new ArrayList<>();
+            List<Integer> nivel = new ArrayList<>();
+            for (int i = 0; i < tamany; i++) pokemons.add(sc.nextInt());
+            for (int i = 0; i < tamany; i++) nivel.add(sc.nextInt());
+
+            // Guardar el mejor nivel de cada Pokémon
+            List<Integer> pokemonIds = new ArrayList<>();
+            List<Integer> nivelesMax = new ArrayList<>();
+
+            for (int i = 0; i < tamany; i++) {
+                int id = pokemons.get(i);
+                int lvl = nivel.get(i);
+                if (!pokemonIds.contains(id)) {
+                    pokemonIds.add(id);
+                    nivelesMax.add(lvl);
+                } else {
+                    int idx = pokemonIds.indexOf(id);
+                    if (lvl > nivelesMax.get(idx)) {
+                        nivelesMax.set(idx, lvl);
+                    }
+                }
+            }
+
+            Set<Integer> impresos = new HashSet<>();
+            for (int i = 0; i < tamany; i++) {
+                int id = pokemons.get(i);
+                int lvl = nivel.get(i);
+                int idx = pokemonIds.indexOf(id);
+                if (!impresos.contains(id) && lvl == nivelesMax.get(idx)) {
+                    System.out.print(id + " ");
+                    impresos.add(id);
+                }
+            }
+            System.out.println();
+        }
+    }
+}
