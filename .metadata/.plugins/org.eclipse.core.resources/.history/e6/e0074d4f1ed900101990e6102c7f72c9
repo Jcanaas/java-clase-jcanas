@@ -1,0 +1,30 @@
+allpackage ejercicios;
+
+import java.util.*;
+
+public class abuelaMaria {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<Integer> all = new ArrayList<>();
+        while (sc.hasNextInt()) {
+            all.add(sc.nextInt());
+        }
+        sc.close();
+
+        if (all.isEmpty()) return;
+        int n = all.size() / 2;
+        List<Integer> top = new ArrayList<>(all.subList(0, n));
+        List<Integer> bottom = new ArrayList<>(all.subList(n, n * 2));
+
+        int target = top.get(0) + bottom.get(0);
+        boolean ok = true;
+        for (int i = 1; i < n; i++) {
+            if (top.get(i) + bottom.get(i) != target) {
+                ok = false;
+                break;
+            }
+        }
+
+        System.out.println(ok ? "SI" : "NO");
+    }
+}

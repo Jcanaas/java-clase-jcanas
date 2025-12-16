@@ -1,0 +1,39 @@
+package ejercicios;
+
+import java.util.*;
+
+public class abuelaMaria {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<Integer> all = new ArrayList<>();
+        while (sc.hasNextInt()) {
+            all.add(sc.nextInt());
+        }
+        sc.close();
+
+        if (all.isEmpty()) return;
+        int n = all.size() / 2;
+        List<Integer> top = new ArrayList<>();
+        List<Integer> bottom = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            top.add(all.get(i));
+        }
+        for (int i = 0; i < n; i++) {
+            bottom.add(all.get(n + i));
+        }
+
+        int target = top.get(0) + bottom.get(0);
+        boolean ok = true;
+        for (int i = 1; i < n; i++) {
+            if (top.get(i) + bottom.get(i) != target) {
+                ok = false;
+            }
+        }
+
+        if (ok) {
+            System.out.println("SI");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}

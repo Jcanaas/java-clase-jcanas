@@ -8658,3 +8658,1493 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2025-12-12 18:38:56.459
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios/oca.java
+!SESSION 2025-12-14 19:20:45.047 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-14 19:20:47.527
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-14 19:20:48.433
+!MESSAGE Logback config file: /var/home/bazzite/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-12-14 19:20:52.493
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-12-14 19:20:52.495
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.linux.x64
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-12-14 19:20:52.522
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:20:55.297
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.401.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:20:55.317
+!MESSAGE [Info]	[default] Policy watcher not supported on this platform: Unsupported platform
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:20:56.069
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:20:56.715
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:20:56.715
+!MESSAGE [Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:20:56.715
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:26:02.683
+!MESSAGE [Info]	[fetchChat] Request 05c28559-bc72-405e-b2d2-7b657e24faf5 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 336.1093910000054ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:26:02.782
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:26:32.797
+!MESSAGE [Info]	[fetchChat] Request 739e5223-d55a-46a2-b9f3-3768857f8b55 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 29999.768016999995ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:26:46.445
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:26:46.815
+!MESSAGE [Info]	[fetchChat] Request 4a66f13e-3a7a-423c-88f1-52a211b3ee7b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 381.0969599999953ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:26:48.559
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:27:52.959
+!MESSAGE [Info]	[fetchChat] Request 6a4af88d-4ef5-468d-970b-612e0a26ac97 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1061.9922720000031ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:27:53.049
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:28:05.664
+!MESSAGE [Info]	[fetchChat] Request a33b688a-34ac-4d8c-b076-d6c7ca7bee7a at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 12594.791857000033ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:28:18.593
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:28:19.488
+!MESSAGE [Info]	[fetchChat] Request 0381794a-5638-4b35-ae49-73740eee7277 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 944.2811339999898ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:28:19.564
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:28:56.967
+!MESSAGE [Info]	[fetchChat] Request 4915a424-9892-46de-9567-1ba9802dedf4 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 409.04769400000805ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:28:56.973
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:29:10.823
+!MESSAGE [Info]	[fetchChat] Request 601793ef-462b-4a80-b7bd-3fd7cbe21e49 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 13833.740565000044ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:29:22.643
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:29:23.082
+!MESSAGE [Info]	[fetchChat] Request 6843fc22-408d-4496-a1e1-9d7a2db6b205 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 496.75380499998573ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:29:23.112
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:30:02.106
+!MESSAGE [Info]	[fetchChat] Request b2092d56-bcab-4a1c-ad6e-68c365fa26b9 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 398.7601909999503ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:30:02.133
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:30:15.689
+!MESSAGE [Info]	[fetchChat] Request 561983b1-9c9e-446a-b2b3-e887d0967966 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 13532.895243000006ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:30:29.185
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:30:31.075
+!MESSAGE [Info]	[fetchChat] Request 8cd64e1d-82b8-48cb-812b-4996487f8842 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 2033.6791320000775ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:30:31.118
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:31:46.032
+!MESSAGE [Info]	[fetchChat] Request fdfaa26d-e709-43ff-959e-b561358a3efa at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 371.1363479999127ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:31:46.060
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:31:56.376
+!MESSAGE [Info]	[fetchChat] Request 3fa9f177-e32a-4899-8777-663294640b3d at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 10293.841865000082ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:32:06.693
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:32:07.026
+!MESSAGE [Info]	[fetchChat] Request b00206df-69c6-4073-a027-e72fdc4d2cbc at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 436.5243720000144ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:32:07.093
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:33:30.687
+!MESSAGE [Info]	[fetchChat] Request 1fd44886-26db-4b43-ad36-46decdef87eb at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 562.2680790000595ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:33:30.832
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:33:57.446
+!MESSAGE [Info]	[fetchChat] Request 02c47c5e-d9a2-4919-a7a5-567d0f6d4aed at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 26596.893174999976ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:34:04.563
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:34:06.316
+!MESSAGE [Info]	[fetchChat] Request 151abee3-2595-43d0-897e-434b25009716 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1831.0542039999273ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:34:06.634
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:43:16.898
+!MESSAGE [Info]	[agentPrompt] Rendering fresh global context for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/d0d87c93-2510-4304-9aa2-70a19f127fff
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:43:38.965
+!MESSAGE [Info]	[fetchChat] Request d60d0405-beef-4912-ac92-d6be9d4f65e7 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 22099.92370699998ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:43:43.929
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:43:43.929
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:43:44.724
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/d0d87c93-2510-4304-9aa2-70a19f127fff
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:43:45.355
+!MESSAGE [Info]	[fetchChat] Request 34ba47a8-0984-4869-ae9e-0dc3a97399f8 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 739.7933709998615ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:43:46.262
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:43:46.262
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:43:46.262
+!MESSAGE [Info]	[toolCallingLoop] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:43:46.263
+!MESSAGE [Info]	[CommandLineAutoApprover] Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java' is split into sub-commands: ["/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:43:46.263
+!MESSAGE [Info]	[CommandLineAutoApprover] Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java' is denied, reason:'Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java' has no matching auto approve entries'
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:43.107
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/d0d87c93-2510-4304-9aa2-70a19f127fff
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:44.095
+!MESSAGE [Info]	[fetchChat] Request f0de0410-90f6-4e9d-a908-3a5929aa90f3 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1023.026462999871ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:44.220
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:44.220
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 19:45:44.267
+!MESSAGE [Error]	[toolCallingLoop] Error while invoking tool call_bSNdmKhldElHbvsieFCJMwh5: Error: Failed to invoke client tool get_terminal_output: Error: Failed to invoke client tool get_terminal_output: Error: Internal error.
+    at qje.invoke (/snapshot/copilot-client/lib/src/toolCall/tools/clientTool.ts:89:19)
+    at Ls.invokeTool (/snapshot/copilot-client/lib/src/toolCall/services/toolsService.ts:173:14)
+    at t.handleLanguageModelToolCall (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:609:36)
+    at t.handleSingleToolCall (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:505:13)
+    at t.handleToolCalls (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:471:13)
+    at t.processChatFetchResult (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:417:24)
+    at t.run (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:154:32)
+    at Lje.processWithModelAndToolCall (/snapshot/copilot-client/lib/src/conversation/editAgent/agenticTurnProcessor.ts:149:13)
+    at Lje.process (/snapshot/copilot-client/lib/src/conversation/editAgent/agenticTurnProcessor.ts:60:13)
+    at handleConversationTurnChecked (/snapshot/copilot-client/agent/src/methods/conversation/conversationTurn.ts:170:5) Error: Failed to invoke client tool get_terminal_output: Error: Failed to invoke client tool get_terminal_output: Error: Internal error.
+    at qje.invoke (/snapshot/copilot-client/lib/src/toolCall/tools/clientTool.ts:89:19)
+    at Ls.invokeTool (/snapshot/copilot-client/lib/src/toolCall/services/toolsService.ts:173:14)
+    at t.handleLanguageModelToolCall (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:609:36)
+    at t.handleSingleToolCall (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:505:13)
+    at t.handleToolCalls (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:471:13)
+    at t.processChatFetchResult (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:417:24)
+    at t.run (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:154:32)
+    at Lje.processWithModelAndToolCall (/snapshot/copilot-client/lib/src/conversation/editAgent/agenticTurnProcessor.ts:149:13)
+    at Lje.process (/snapshot/copilot-client/lib/src/conversation/editAgent/agenticTurnProcessor.ts:60:13)
+    at handleConversationTurnChecked (/snapshot/copilot-client/agent/src/methods/conversation/conversationTurn.ts:170:5)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:44.318
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/d0d87c93-2510-4304-9aa2-70a19f127fff
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:46.141
+!MESSAGE [Info]	[fetchChat] Request be222387-12a2-49d4-b507-1081476f141f at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1859.8734120000154ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:46.287
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:46.287
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:46.384
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/d0d87c93-2510-4304-9aa2-70a19f127fff
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:51.247
+!MESSAGE [Info]	[fetchChat] Request e0aa3c7d-1ce1-4072-9ffc-df5ff33b06da at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 4902.137100999942ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:52.541
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:52.541
+!MESSAGE [Info]	[CommandLineAutoApprover] Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java' is split into sub-commands: ["/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:52.541
+!MESSAGE [Info]	[CommandLineAutoApprover] Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java' is denied, reason:'Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java' has no matching auto approve entries'
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:52.542
+!MESSAGE [Info]	[toolCallingLoop] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:45:52.542
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:46:37.470
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/d0d87c93-2510-4304-9aa2-70a19f127fff
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:46:38.400
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:46:42.863
+!MESSAGE [Info]	[fetchChat] Request 82658cad-c89f-4bc4-b7a7-7f40cda8a960 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 5569.825094999978ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:46:45.223
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:46:45.223
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:46:45.223
+!MESSAGE [Info]	[CommandLineAutoApprover] Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java && echo "1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1" | /usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria' is denied, reason:'Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java' has no matching auto approve entries; Command 'echo "1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1"' has no matching auto approve entries; Command '/usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria' has no matching auto approve entries'
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:46:45.223
+!MESSAGE [Info]	[CommandLineAutoApprover] Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java && echo "1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1" | /usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria' is split into sub-commands: ["/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java","echo \"1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1\"","/usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:46:45.224
+!MESSAGE [Info]	[toolCallingLoop] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:46:55.075
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/d0d87c93-2510-4304-9aa2-70a19f127fff
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:46:57.385
+!MESSAGE [Info]	[agenticTurnProcessor] Cancellation requested for turn d0d87c93-2510-4304-9aa2-70a19f127fff
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:46:57.385
+!MESSAGE [Info]	[agenticTurnProcessor] Turn d0d87c93-2510-4304-9aa2-70a19f127fff was cancelled Canceled: Canceled
+    at t.abortIfCanceled (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:995:19)
+    at t.processChatFetchResult (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:292:14)
+    at t.runOne (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:276:21)
+    at t.run (/snapshot/copilot-client/lib/src/toolCall/toolCallingLoop.ts:154:32)
+    at Lje.processWithModelAndToolCall (/snapshot/copilot-client/lib/src/conversation/editAgent/agenticTurnProcessor.ts:149:13)
+    at Lje.process (/snapshot/copilot-client/lib/src/conversation/editAgent/agenticTurnProcessor.ts:60:13)
+    at handleConversationTurnChecked (/snapshot/copilot-client/agent/src/methods/conversation/conversationTurn.ts:170:5)
+    at fr.messageHandler (/snapshot/copilot-client/agent/src/service.ts:349:45)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 19:46:57.385
+!MESSAGE [Error]	[chat] Work done token for conversation 427c820f-a9a1-4561-90b6-70e20a19ae8b is already cancelled, last updated at 1765738017378
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:02.859
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/f27fbedb-a9bc-4a75-a3ba-284aa8d14f0f
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:11.854
+!MESSAGE [Info]	[fetchChat] Request 496c9b62-70ad-4373-a366-3d2c2cf212fa at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 9040.569341999944ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:15.468
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:15.468
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:15.538
+!MESSAGE [Info]	[codeMapper] Selected model: gpt-4o-instant-apply-full-ft-v66-short, Token count: 747 for file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:15.950
+!MESSAGE [Info]	[fetchChat] Request 5f1709f2-5847-40f7-92d6-7c23ee72bdda at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 512.0339919999242ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:16.380
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:17.195
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/f27fbedb-a9bc-4a75-a3ba-284aa8d14f0f
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:17.195
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.captureInitialBranchInfo (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:178:39) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:17.195
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:17.195
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:17.195
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:18.103
+!MESSAGE [Info]	[fetchChat] Request a36de6b7-4d0c-48e3-a5b7-a32d70b95b48 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1051.1121640000492ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:19.544
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:19.544
+!MESSAGE [Info]	[CommandLineAutoApprover] Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java && echo "1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1" | /usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria' is split into sub-commands: ["/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java","echo \"1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1\"","/usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:19.544
+!MESSAGE [Info]	[toolCallingLoop] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:19.544
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:19.544
+!MESSAGE [Info]	[CommandLineAutoApprover] Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java && echo "1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1" | /usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria' is denied, reason:'Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java' has no matching auto approve entries; Command 'echo "1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1"' has no matching auto approve entries; Command '/usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria' has no matching auto approve entries'
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:47.099
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:47:47.101
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:49:17.097
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:49:17.098
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:09.812
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/f27fbedb-a9bc-4a75-a3ba-284aa8d14f0f
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:11.979
+!MESSAGE [Info]	[fetchChat] Request 8502968b-cb8f-4827-9e5f-872bb85ee0a0 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 2350.3994420000818ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:12.504
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:12.898
+!MESSAGE [Info]	[fetchChat] Request 436fc209-2e20-4c81-b6f2-867868f945fb at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 504.7765819998458ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:12.918
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:14.514
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/501b4764-9c19-497d-a106-dd485a053e1b
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:24.472
+!MESSAGE [Info]	[fetchChat] Request dd93d44e-9e05-443e-a063-ff0676a8ce80 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 10019.919515999965ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:27.070
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:27.070
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:27.150
+!MESSAGE [Info]	[codeMapper] Selected model: gpt-4o-instant-apply-full-ft-v66-short, Token count: 739 for file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:27.312
+!MESSAGE [Info]	[fetchChat] Request c2739bdf-ea07-48cd-8ef3-218e0a1a7680 at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 284.73695699987ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:27.910
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:28.461
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/501b4764-9c19-497d-a106-dd485a053e1b
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:28.461
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.captureInitialBranchInfo (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:178:39) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:28.461
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:28.462
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:28.462
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:30.001
+!MESSAGE [Info]	[fetchChat] Request fd3fb885-dc1e-42e8-ac10-67be575d106f at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1641.6102559999563ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:31.260
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:31.260
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:31.260
+!MESSAGE [Info]	[CommandLineAutoApprover] Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java && echo "1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1" | /usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria' is denied, reason:'Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java' has no matching auto approve entries; Command 'echo "1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1"' has no matching auto approve entries; Command '/usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria' has no matching auto approve entries'
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:31.260
+!MESSAGE [Info]	[CommandLineAutoApprover] Command '/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java && echo "1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1" | /usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria' is split into sub-commands: ["/usr/bin/javac -d /var/home/bazzite/eclipse-workspace/Java/bin /var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java","echo \"1 3 1 3 1 3 1 3 1 3 1 3 3 1 3 1 3 1 3 1 3 1 3 1\"","/usr/bin/java -cp /var/home/bazzite/eclipse-workspace/Java/bin ejercicios.abuelaMaria"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:31.260
+!MESSAGE [Info]	[toolCallingLoop] Extracted shell 'sh' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:41.484
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/501b4764-9c19-497d-a106-dd485a053e1b
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:42.391
+!MESSAGE [Info]	[fetchChat] Request 0b2c0609-3eb9-4417-9969-577572e16da8 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 963.2773949999828ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:46.627
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:47.000
+!MESSAGE [Info]	[fetchChat] Request 4adf3557-7e5c-4e17-a6df-5cc938cb69e0 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 415.7095139999874ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:47.157
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:58.370
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:50:58.371
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:03.909
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/130150b0-a6b6-4120-87f5-bed4d3cd7bdc
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:08.720
+!MESSAGE [Info]	[fetchChat] Request 059cbe51-ee39-4a58-9a4e-537f4aa45ae3 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 4998.467406000011ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:13.246
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:13.246
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:13.311
+!MESSAGE [Info]	[codeMapper] Selected model: gpt-4o-instant-apply-full-ft-v66-short, Token count: 755 for file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:13.527
+!MESSAGE [Info]	[fetchChat] Request 52108daf-89ad-482f-92bd-e232c75c08ba at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 322.7916200000327ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:14.052
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:14.767
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/130150b0-a6b6-4120-87f5-bed4d3cd7bdc
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:14.767
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:14.767
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.captureInitialBranchInfo (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:178:39) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:14.767
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:14.767
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:15.682
+!MESSAGE [Info]	[fetchChat] Request 63ff66ed-0b6e-4c57-8285-ae1abea21552 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1050.6523080000188ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:15.876
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:15.876
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:16.039
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/130150b0-a6b6-4120-87f5-bed4d3cd7bdc
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:17.099
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:17.100
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:17.421
+!MESSAGE [Info]	[fetchChat] Request 3ef5facd-be2c-47eb-9a75-92060aa2671d at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1466.63286399981ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:18.349
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:18.648
+!MESSAGE [Info]	[fetchChat] Request b5e7bfc9-7217-4737-b9c5-82f98fcd8a94 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 402.81033900007606ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:18.954
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:28.384
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:28.384
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:44.640
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:52:44.641
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:09.985
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/002135bc-5744-4e51-9f82-161a09f69465
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:14.646
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:14.647
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:17.641
+!MESSAGE [Info]	[fetchChat] Request 4ae89ee5-3108-47f9-b95b-413d2c95a328 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 7858.277630999917ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:23.022
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:23.022
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:23.107
+!MESSAGE [Info]	[codeMapper] Selected model: gpt-4o-instant-apply-full-ft-v66-short, Token count: 856 for file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:24.192
+!MESSAGE [Info]	[fetchChat] Request cc84a7b5-ee4b-42a4-9d31-87eae5ceef3d at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 1227.0261970001739ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:25.112
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:25.709
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/002135bc-5744-4e51-9f82-161a09f69465
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:25.709
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:25.709
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:25.709
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.captureInitialBranchInfo (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:178:39) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:25.709
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:26.653
+!MESSAGE [Info]	[fetchChat] Request 04bd92fa-8638-4c2c-abf6-f2131919c9a5 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1013.9302309998311ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:28.352
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:28.630
+!MESSAGE [Info]	[fetchChat] Request f028a48f-ac29-459a-85e7-1d2fadae352b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 327.91350300004706ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:28.800
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:55.652
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:54:55.652
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:28.376
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:28.379
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:32.080
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/9dac9b4d-23bc-4750-9450-17de60bb4f60
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:39.056
+!MESSAGE [Info]	[fetchChat] Request 990ab42e-3d71-4952-b32d-fe8fb6d628d4 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 7040.320527999895ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:44.459
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:44.459
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:44.549
+!MESSAGE [Info]	[codeMapper] Selected model: gpt-4o-instant-apply-full-ft-v66-short, Token count: 898 for file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios/abuelaMaria.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:44.885
+!MESSAGE [Info]	[fetchChat] Request a5465456-3f75-4323-b915-f7d449c7edeb at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 485.29941599979065ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:45.601
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:46.237
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/9dac9b4d-23bc-4750-9450-17de60bb4f60
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:46.237
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:46.238
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:46.238
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.captureInitialBranchInfo (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:178:39) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:46.238
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:47.962
+!MESSAGE [Info]	[fetchChat] Request 8111be99-a770-45bd-aeab-5498b82ceb5b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1801.0816399999894ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:48.028
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:48.028
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:48.204
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/9dac9b4d-23bc-4750-9450-17de60bb4f60
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:49.088
+!MESSAGE [Info]	[fetchChat] Request bf1f76c1-2c0f-44e8-ab62-36e30db844fb at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 973.3715569998603ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:51.271
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:51.551
+!MESSAGE [Info]	[fetchChat] Request 1b182e4e-a86c-4734-838c-914ebc3e6d20 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 331.7216260000132ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:55:51.733
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:56:16.177
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:56:16.181
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:56:25.649
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:56:25.650
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:56:32.693
+!MESSAGE [Info]	[fetchCompletions] Request afc710d1-7c64-4231-843a-1beac3dbdb0d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 153.67627599975094ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:56:32.696
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:57:14.641
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:57:14.642
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:57:17.098
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:57:17.101
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:57:24.960
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/279b9fde-1a38-47b7-a9c3-1fa85170d16d
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:57:31.283
+!MESSAGE [Info]	[fetchChat] Request 9e1e20b0-397a-4912-a5f9-510170b20725 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 6511.646585000213ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:57:34.201
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:57:34.560
+!MESSAGE [Info]	[fetchChat] Request 7492c630-49fc-46ec-949c-42f4d1cf481b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 412.7098939996213ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:57:34.621
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:57:46.174
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:57:46.175
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:59:25.654
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 19:59:25.655
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:00:28.381
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:00:28.383
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:00:46.173
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:00:46.176
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:29.655
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/8bfc54b1-8c8b-4697-8cfa-f4f9f24304b1
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:32.751
+!MESSAGE [Info]	[fetchChat] Request 6c338bd6-47d1-40b3-85db-4e7e42a9e95a at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 3161.4385560001247ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:37.227
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:37.227
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:37.983
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/8bfc54b1-8c8b-4697-8cfa-f4f9f24304b1
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:40.634
+!MESSAGE [Info]	[fetchChat] Request a6adfa8e-b04d-49c8-b42b-84ea748257fd at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 2743.224043000024ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:41.040
+!MESSAGE [Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:41.040
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:41.237
+!MESSAGE [Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn 427c820f-a9a1-4561-90b6-70e20a19ae8b/8bfc54b1-8c8b-4697-8cfa-f4f9f24304b1
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:43.809
+!MESSAGE [Info]	[fetchChat] Request a037cef4-533d-4e72-aaa3-26adf031b999 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 2673.343495000154ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:45.638
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:46.162
+!MESSAGE [Info]	[fetchChat] Request fe2ab5bb-cbd8-4016-ab25-048af7b827cb at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 590.4880570000969ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:01:46.294
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:02:14.647
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:02:14.647
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:02:26.317
+!MESSAGE [Info]	[fetchCompletions] Request 7d9de589-354c-4fc9-8910-d7c775cee860 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 294.33891399996355ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:02:26.319
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:04:25.654
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:04:25.656
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:05:46.176
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn git',
+  path: 'git',
+  spawnargs: [ '-c', 'safe.directory=*', 'branch', '--show-current' ],
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-12-14 20:05:46.178
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///var/home/bazzite/eclipse-workspace/Java/src/ejercicios: Error: ENOENT: no such file or directory, open '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+    at open (node:internal/fs/promises:641:25)
+    at Object.readFile (node:internal/fs/promises:1245:14)
+    at eO.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:16)
+    at Xz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Yz.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at tOe.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:193:39)
+    at tOe.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:232:33)
+    at tOe.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:119:24)
+    at tOe.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:695:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/var/home/bazzite/eclipse-workspace/Java/src/ejercicios/.git/HEAD'
+}
