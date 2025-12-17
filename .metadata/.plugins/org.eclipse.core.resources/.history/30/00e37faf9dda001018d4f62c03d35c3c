@@ -1,0 +1,31 @@
+package ejercicios;
+
+import java.util.*;
+
+public class i_que_wardeji_be {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<String> llista1 = new ArrayList<>(Arrays.asList(sc.next().split(" ")));
+        List<String> llista2 = new ArrayList<>(Arrays.asList(sc.next().split(" ")));
+        List<String> llista3 = new ArrayList<>(Arrays.asList(sc.next().split(" ")));
+        List<String> llista4 = new ArrayList<>(Arrays.asList(sc.next().split(" ")));
+        List<String> megallista = new ArrayList<>();
+        
+        for(int i = 0; i < llista1.size(); i++){
+        	String v = llista1.get(i);
+        	if llista2.contains(2) && llista2.contains(3) && llista2.contains(4))
+        }       
+        
+        
+        
+
+
+        	
+         
+        
+        	
+        	
+        }
+        
+       }
+    }
