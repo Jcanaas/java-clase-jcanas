@@ -1,0 +1,53 @@
+package ExamenListasJcanas;
+
+import java.util.*;
+
+public class Ex1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<String> listai = new ArrayList<>();
+        List<String> listac = new ArrayList<>();
+        List<String> listacd = new ArrayList<>();
+        int casos = sc.nextInt();
+        sc.next();
+        for(int i = 0; i < casos; i++) {
+        	String nom = sc.nextLine();
+        	char inicial = nom.charAt(0);
+        	listai.add(inicial);
+        	if(JCbuscar(listai, inicial) >= 0) {
+        		int any = sc.nextInt();
+        		sc.nextLine();
+        		listac.add(nom.charAt(0)+any+"@ies-sabadell.cat");
+        	}
+        	else {
+        		listac.add(nom.charAt(0)+"@ies-sabadell.cat");
+        	}
+        	
+        }
+        if(JCbuscarMal(listac, "malbareda@ies-sabadell.cat") >= 0) {
+        	listac.remove(JCbuscarMal(listac, "malbareda@ies-sabadell.cat"));
+        	listacd.add("malbareda@ies-sabadell.cat");
+        	
+        }
+        for(int i = 0; i < listac.size(); i++) {
+        listacd.add(listac.get(i));
+        }
+        
+    }
+    static int JCbuscar(List<String> lista, char valor) {
+		for (int i = 0; i < (lista.size()); i++) {
+			if (lista.get(i) == valor) {
+				return i;
+			}
+		}
+		return -1;
+	}
+    static int JCbuscarMal(List<String> lista, String valor) {
+		for (int i = 0; i < lista.size(); i++) {
+			if (lista.get(i) == valor) {
+				return i;
+			}
+		}
+		return -1;
+	}
+}

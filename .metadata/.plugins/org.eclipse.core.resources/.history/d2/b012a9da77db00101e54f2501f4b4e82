@@ -1,0 +1,16 @@
+package ExamenListasJcanas;
+
+import java.util.*;
+
+public class Ex1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<S> lista = new ArrayList<>();
+        int casos = sc.nextInt();
+        for(int i = 0; i < casos; i++) {
+        	String nom = sc.nextLine();
+        	
+        }
+        
+    }   
+}

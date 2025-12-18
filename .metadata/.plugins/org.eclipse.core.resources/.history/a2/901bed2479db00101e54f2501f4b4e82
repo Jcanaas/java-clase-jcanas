@@ -1,0 +1,31 @@
+package ExamenListasJcanas;
+
+import java.util.*;
+
+public class Ex1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<Character> listai = new ArrayList<>();
+        List<String> listac = new ArrayList<>();
+        int casos = sc.nextInt();
+        for(int i = 0; i < casos; i++) {
+        	String nom = sc.nextLine();
+        	listai.add(nom.charAt(0));
+        	if(JCbuscar(listai, listai.get(i)) > 0) {
+        		int any = sc.nextInt();
+        		sc.nextLine();
+        		listac.add(nom.charAt(0)+);
+        	}
+        	
+        }
+        
+    }
+    static int JCbuscar(List<Character> lista, char valor) {
+		for (int i = 0; i < lista.size(); i++) {
+			if (lista.get(i) == valor) {
+				return i;
+			}
+		}
+		return -1;
+	}
+}

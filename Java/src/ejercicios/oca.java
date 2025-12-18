@@ -54,7 +54,7 @@ public class oca {
         menu();
         }        
     } // Fin main
-    
+    JCmenu
 
     static int  menu() {
 		Scanner sc = new Scanner(System.in);
