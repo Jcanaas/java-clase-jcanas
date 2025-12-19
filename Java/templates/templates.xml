@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java-members" deleted="false" description="Buscar valor en lista - Devuelve índice o -1" enabled="true" name="JCbuscar">static int JCbuscar(List&lt;Integer&gt; lista, int valor) {
+	for (int i = 0; i &lt; lista.size(); i++) {
+		if (lista.get(i) == valor) {
+			return i;
+		}
+	}
+	return -1;
+}</template><template autoinsert="true" context="java-members" deleted="false" description="Comparar listas 1 a 1 - Devuelve true si son iguales" enabled="true" name="JCcomparar">static boolean JCcomparar(List&lt;Integer&gt; lista1, List&lt;Integer&gt; lista2) {
+	for (int i = 0; i &lt; lista1.size(); i++) {
+		if (! lista1.get(i).equals(lista2.get(i))) {
+			return false;
+		}
+	}
+	return true;
+}</template><template autoinsert="true" context="java-members" deleted="false" description="Comprobar si lista contiene todos los valores del array" enabled="true" name="JCcontiene">static boolean JCcontiene(List&lt;Integer&gt; lista, int[] valores) {
+	for (int i = 0; i &lt; valores. length; i++) {
+		boolean encontrado = false;
+		for (int j = 0; j &lt; lista.size(); j++) {
+			if (lista.get(j) == valores[i]) {
+				encontrado = true;
+				break;
+			}
+		}
+		if (!encontrado) {
+			return false;
+		}
+	}
+	return true;
+}</template><template autoinsert="true" context="java-members" deleted="false" description="Comprobar si lista contiene todos los valores del array" enabled="true" name="JCcontiene">static boolean JCcontiene(List&lt;Integer&gt; lista, int[] valores) {
+	for (int i = 0; i &lt; valores. length; i++) {
+		boolean encontrado = false;
+		for (int j = 0; j &lt; lista.size(); j++) {
+			if (lista.get(j) == valores[i]) {
+				encontrado = true;
+				break;
+			}
+		}
+		if (!encontrado) {
+			return false;
+		}
+	}
+	return true;
+}</template><template autoinsert="true" context="java-members" deleted="false" description="Intercambiar dos valores en lista" enabled="true" name="JCintercambiar">static void JCintercambiar(List&lt;Integer&gt; lista, int indice1, int indice2) {
+	int temp = lista.get(indice1);
+	lista.set(indice1, lista.get(indice2));
+	lista.set(indice2, temp);
+}</template><template autoinsert="true" context="java-members" deleted="false" description="Te imprime un menu tope de guapo creado por el mismisimo JCañas" enabled="true" name="JCmenu">static int  menu() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1. ");
+		System.out.println("2. ");
+		System.out.println("3. ");
+		System.out.println("4. ");
+		System.out.println("0. ");
+		int input = sc.nextInt();
+		sc.close();
+		return input;
+		
+	}  </template><template autoinsert="true" context="java-members" deleted="false" description="Desplaza hacia la derecha UN UNICO elemento de una lista" enabled="true" name="JCmover">static void JCmover(List&lt;Integer&gt; lista, int indice, int posiciones) {
+	int valor = lista.remove(indice);
+	int nuevaPosicion = (indice + posiciones) % lista.size();
+	lista.add(nuevaPosicion, valor);
+}</template><template autoinsert="true" context="java-members" deleted="false" description="Quitar elementos repetidos - Devuelve nueva lista sin duplicados" enabled="true" name="JCsinRepetidos">static List&lt;Integer&gt; JCsinRepetidos(List&lt;Integer&gt; lista) {
+	List&lt;Integer&gt; resultado = new ArrayList&lt;&gt;();
+	for (int i = 0; i &lt; lista.size(); i++) {
+		if (! resultado.contains(lista.get(i))) {
+			resultado.add(lista.get(i));
+		}
+	}
+	return resultado;
+}</template></templates>

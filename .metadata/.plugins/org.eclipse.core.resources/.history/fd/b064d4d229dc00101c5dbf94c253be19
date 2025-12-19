@@ -1,0 +1,34 @@
+package concurso;
+
+import java.util.*;
+
+public class Ex1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+       int Tx = sc.nextInt();
+       int Ty = sc.nextInt();
+       String[][]  casillas = new String[Ty][Tx];
+
+       for (int i = 0; i < Ty; i++) {
+    	   String input = sc.nextLine();
+           for (int w = 0; w < Tx; w++) {
+    	   casillas[i][w] = Character.toString(input.charAt(w));
+           }
+       }
+       int[]  p = new int[2];
+       int posibilitats = 0;
+       int[]  tpos = new int[posibilitats];
+
+       	for(int i = 0; i < Tx; i++) {
+       		posibilitats = posibilitats + Ty * Ty;
+       	}
+       	for(int i = 0; i < posibilitats ) {
+       		
+       	}
+       while((p[0] != (Tx -1) || p[1] != (Ty -1))) {
+    	   
+       }
+       
+       
+    }
+}

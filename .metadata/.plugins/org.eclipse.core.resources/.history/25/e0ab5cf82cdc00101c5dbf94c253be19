@@ -1,0 +1,62 @@
+package concurso;
+
+import java.util.*;
+
+public class Ex1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+       int Tx = sc.nextInt();
+       int Ty = sc.nextInt();
+       String[][]  casillas = new String[Ty][Tx];
+
+       for (int i = 0; i < Ty; i++) {
+    	   String input = sc.nextLine();
+           for (int w = 0; w < Tx; w++) {
+    	   casillas[i][w] = Character.toString(input.charAt(w));
+           }
+       }
+       int[]  p = new int[2];
+       int posibilitats = 0;
+       int[]  tpos = new int[posibilitats];
+
+       	for(int i = 0; i < Tx; i++) {
+       		posibilitats = posibilitats + Ty * Ty;
+       	}
+       	for(int i = 0; i < posibilitats; i++ ) {
+       		int contador = 0;
+       		p[0] = 0;
+     		p[1] = 0;
+     		boolean status = false;
+       		while((p[0] != (Tx -1) || p[1] != (Ty -1))) {
+         	   if(casillas[p[0]+1][p[1]+1].equals("N")) {
+         		 p[0] = p[0] +1;
+         		p[1] = p[1] +1;
+         		contador++;
+         	   }
+         	   else if(!casillas[p[0]+1][p[1]].equals("N")) {
+         		  p[0] = p[0] +1;
+           		contador++;
+
+         	   }
+         	  else if(!casillas[p[0]][p[0]+1].equals("N")) {
+         		 p[1] = p[1] +1;
+          		contador++;
+
+        	   }
+         	  
+            }
+       		if(p[0] != (Tx -1) || p[1] != (Ty -1)) {
+       			status = true;
+       		}
+       		
+       		tpos[i] = contador;
+       	}
+       	tpos.length;
+       	
+       	
+       	
+       
+       
+       
+    }
+}

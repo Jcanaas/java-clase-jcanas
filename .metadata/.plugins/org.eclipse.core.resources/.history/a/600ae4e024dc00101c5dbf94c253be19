@@ -1,0 +1,11 @@
+package concurso;
+
+import java.util.*;
+
+public class Ex1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<Integer> lista = new ArrayList<>();
+       int Tx = sc.nextint();
+    }
+}
