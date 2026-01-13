@@ -1,0 +1,37 @@
+	package ejercicios;
+	
+	import java.util.*;
+	
+	public class MàximdeMatriu {
+	    public static void main(String[] args) {
+	        Scanner sc = new Scanner(System.in);
+	        int n = sc.nextInt();
+	        for(int i = 0; i < n; i++) {
+	        	int x = Integer.parseInt(sc.next());
+	        	int y = Integer.parseInt(sc.next());;
+	        	int[][]  matriu = new int[x][y];
+	        	for(int w = 0; w < x; w++) {
+	        		for(int z = 0; z < y; z++) {
+		        		matriu[w][z] = sc.nextInt(); 
+		        	}
+	        	}
+	        	int[]  ma = new int[2];
+	        	int var = ma[0].length;
+	        	int mac = 0;
+	        	for(int w = 0; w < x; w++) {
+	        		for(int z = 0; z < y; z++) {
+		        		if(matriu[w][z] > mac) {
+		        			mac = matriu[w][z];
+		        			ma[0] = w;
+		        			ma[1] = z;
+		        		}
+		        	}
+	        	}
+	        	
+	        	System.out.println((ma[0] + 1)+" "+(ma[1]+1));
+	        }
+	        
+	        
+	}
+	}
+ 

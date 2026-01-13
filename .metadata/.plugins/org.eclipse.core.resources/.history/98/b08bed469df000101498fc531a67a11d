@@ -1,0 +1,75 @@
+package ejercicios;
+
+import java.util.*;
+
+public class alfil {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        sc.nextLine();
+        for (int i = 0; i < n; i++) {
+            String[][] matriu = new String[8][8];
+            for (int w = 0; w < 8; w++) {
+                for (int z = 0; z < 8; z++) {
+                    if ((w + z) % 2 == 0)
+                        matriu[w][z] = "⬛";
+                    else
+                        matriu[w][z] = "⬜";
+                }
+            }
+            String s = sc.nextLine();
+            int f0 = s.charAt(1) - '1';   // CORREGIDO
+            int c0 = con(s.charAt(0));
+            int f = f0;
+            int c = c0;
+            matriu[f0][c0] = "♟️";
+
+            int suma = 0;
+            // NE
+            f = f0;
+            c = c0;
+            while (f < 7 && c < 7) {
+                f++;
+                c++;
+                suma++;
+            }
+            // NO
+            f = f0;
+            c = c0;
+            while (f < 7 && c > 0) {
+                f++;
+                c--;
+                suma++;
+            }
+            // SE
+            f = f0;
+            c = c0;
+            while (f > 0 && c < 7) {
+                f--;
+                c++;
+                suma++;
+            }
+            // SO
+            f = f0;
+            c = c0;
+            while (f > 0 && c > 0) {
+                f--;
+                c--;
+                suma++;
+            }
+
+            System.out.println(suma);
+            for (int w = 0; w < 8; w++) {
+                for (int z = 0; z < 8; z++) {
+                    System.out.print(matriu[w][z]);
+                }
+                System.out.println();
+            }
+        }
+    }
+
+    static int con(char c) {
+        return c - 'a';
+    }
+}

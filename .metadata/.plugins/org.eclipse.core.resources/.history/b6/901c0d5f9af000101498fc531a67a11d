@@ -1,0 +1,67 @@
+	package ejercicios;
+	
+	import java.util.*;
+	
+	public class alfil {
+	    public static void main(String[] args) {
+	        Scanner sc = new Scanner(System.in);
+	        int n = sc.nextInt();
+	        int[][]  matriu = new int[8][8];
+	        sc.nextLine();
+	        for (int i = 0; i < n; i++) {
+	        String s = sc.nextLine();
+	        int f0 = s.charAt(1) - '0';	        
+	        int c0 = con(s.charAt(0));
+	        int f = f0;
+	        int c = c0;
+	        matriu[f0][c0] = "♟️";
+	        
+	        int suma = 0;
+	        while (f < 7 && c < 7) {
+                f++; c++;
+                suma++;
+            }
+
+            
+            f = f0; c = c0;
+            while (f < 7 && c > 0) {
+                f++; c--;
+                suma++;
+            }
+
+            
+            f = f0; c = c0;
+            while (f > 0 && c < 7) {
+                f--; c++;
+                suma++;
+            }
+
+            
+            f = f0; c = c0;
+            while (f > 0 && c > 0) {
+                f--; c--;
+                suma++;
+            }
+            ♟️
+	        
+	        	
+	        System.out.println(suma);
+	        for(int w = 0; w < 7; w++) {
+	        	for(int z = 0; z < 7; z++) {
+	        		System.out.println(matriu[w][z]);
+		        }
+	        }
+	        }	        
+	    }
+	    static int con(char c) {
+	        if(c == 'a') return 0;
+	        else if(c == 'b') return 1;
+	        else if(c == 'c') return 2;
+	        else if(c == 'd') return 3;
+	        else if(c == 'e') return 4;
+	        else if(c == 'f') return 5;
+	        else if(c == 'g') return 6;
+	        else if(c == 'h') return 7;
+	        return 0;
+	    }
+	}

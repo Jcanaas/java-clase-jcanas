@@ -1,0 +1,19 @@
+package ajedrez;
+
+import java.util.*;
+
+public class ajedrez {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        
+    }
+    static String menu() {
+    	System.out.println("---------Ajedrez by JCañas-----------");
+    	System.out.println("-------------------------------------");
+    	System.out.println("---1. Jugar--------------------------");
+    	System.out.println("---1. Jugar--------------------------");
+    	
+        return;
+    }
+}
