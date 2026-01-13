@@ -1,0 +1,35 @@
+package ejercicios;
+
+import java.util.*;
+
+public class Escriu_en_una_Matriu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int f = sc.nextInt();
+        int c = sc.nextInt();
+        int[][]  matriu = new int[f][c];
+        for(int i = 0; i < f; i++){
+        	for(int w = 0; w < c; w++){
+        		matriu[i][w] = sc.nextInt();
+        	}
+        }
+        int z = sc.nextInt();
+        int j = sc.nextInt();
+        for(int i = 0; i < f; i++){
+        	for(int w = 0; w < c; w++){
+        		System.out.print(matriu[i][w]);
+        	}
+        	System.out.println();
+        }
+        for(int i = 0; i < f; i++){
+        	for(int w = 0; w < c; w++){
+        		System.out.print(matriu[i][w]);
+        	}
+        	System.out.println();
+        }
+        
+        
+        
+        
+    }
+}

@@ -1,0 +1,38 @@
+package ejercicios;
+
+import java.util.*;
+
+public class Index_of_Matriu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int f = sc.nextInt();
+        int c = sc.nextInt();
+        int[][]  matriu = new int[f][c];
+        for(int i = 0; i < f; i++){
+        	for(int w = 0; w < c; w++){
+        		matriu[i][w] = sc.nextInt();
+        	}
+        }
+        int z = sc.nextInt();
+        int[][]  matriu2 = new int[1][2];
+        
+        for(int i = 0; i < f; i++){
+        	for(int w = 0; w < c; w++){
+        		if(matriu[i][w] == z) {
+        			matriu
+        		}
+        	}
+        	
+        }
+        for(int i = 0; i < f; i++){
+        	for(int w = 0; w < c; w++){
+        		System.out.print(matriu[i][w]);
+        	}
+        	System.out.println();
+        }
+        
+        
+        
+        
+    }
+}

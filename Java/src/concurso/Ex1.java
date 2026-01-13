@@ -28,7 +28,7 @@ public class Ex1 {
        		int contador = 0;
        		p[0] = 0;
      		p[1] = 0;
-       		while((p[0] != (Tx -1) || p[1] != (Ty -1))) {
+       		while((p[0] != (Tx -1) || p[1] != (Ty -1))) {z
          	   if(casillas[p[0]+1][p[1]+1].equals("N")) {
          		 p[0] = p[0] +1;
          		p[1] = p[1] +1;

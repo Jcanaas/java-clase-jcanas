@@ -1,0 +1,28 @@
+	package ejercicios;
+	
+	import java.util.*;
+	
+	public class Suma_Files_i_Columnes {
+	    public static void main(String[] args) {
+	        Scanner sc = new Scanner(System.in);
+	        int f = sc.nextInt();
+	        int c = sc.nextInt();
+	        int[][]  matriu = new int[f][c];
+	        for(int i = 0; i < f; i++){
+	        	for(int w = 0; w < c; w++){
+	        		matriu[i][w] = sc.nextInt();
+	        	}
+	        }
+	        int s = sc.nextInt();
+	        int suma = 0; 
+	        for(int i = 0; i < f; i++){
+	        	suma = suma + matriu
+	        }
+	        System.out.println(suma);
+	        sc.close();
+	        
+	        
+	        
+	        
+	    }
+	}

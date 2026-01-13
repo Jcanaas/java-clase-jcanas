@@ -1,0 +1,15 @@
+	package ejercicios;
+	
+	import java.util.*;
+	
+	public class Suma_Files_i_Columnes {
+	    public static void main(String[] args) {
+	        Scanner sc = new Scanner(System.in);
+	        int n = sc.nextInt();
+	        for(i = 0; )
+	        
+	        
+	        
+	        
+	    }
+	}
