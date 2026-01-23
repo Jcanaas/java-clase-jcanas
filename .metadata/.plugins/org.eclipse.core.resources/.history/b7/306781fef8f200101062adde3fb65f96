@@ -1,0 +1,18 @@
+package ejercicios;
+
+import java.util.*;
+
+public class Oftalmólogo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+
+        
+        
+        String[][] matriu = new String[2][2];
+        matriu[0][0] = ""; 
+        String input = sc.nextLine();
+            
+            		
+    }
+}

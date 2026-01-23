@@ -1,0 +1,61 @@
+package ajedrez;
+
+import java.util.*;
+
+public class ajedrez {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int eleccio = menu();
+        if(eleccio == 1) {
+        	play();
+        }
+        else if(eleccio == 2) {
+        	
+        }
+        	
+        else if(eleccio == 3) {
+         System.out.println("Saliendo...");
+         System.exit(5);
+        }
+        else(){
+        	System.out.println("Error");
+        }
+        
+    }
+    static int menu() {
+        Scanner sc = new Scanner(System.in);
+    	System.out.println("---------Ajedrez by JCañas-----------");
+    	System.out.println("-------------------------------------");
+    	System.out.println("---1. Jugar--------------------------");
+    	System.out.println("---2. Reiniciar----------------------");
+    	System.out.println("---3. exit------------------------------");
+    	System.out.println("-------------------------------------");
+    	System.out.print("¿Que quieres hacer?");
+    	int input = sc.nextInt();
+    	while(input == 1 || input == 2 ){
+    		System.out.print("Selecciona un valor valid");
+    		input = sc.nextInt();
+    	}
+    	System.out.println();
+
+    	
+    	
+        return input;
+    }
+    static String play() {
+    	
+    }
+    static String reiniciar_tablero() {
+    	 String[][] matriu = new String[8][8];
+         for (int w = 0; w < 8; w++) {
+             for (int z = 0; z < 8; z++) {
+                 if ((w + z) % 2 == 0)
+                     matriu[w][z] = "⬛";
+                 else
+                     matriu[w][z] = "⬜";
+             }
+         }
+         return()
+    }
+}

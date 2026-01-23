@@ -1,0 +1,11 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class PUTOS_FURROS {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        
+    }
+}

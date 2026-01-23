@@ -1,0 +1,13 @@
+package ejercicios;
+
+import java.util.*;
+
+public class pi {
+    public static void main(String[] args) {
+        double c = ;
+        double d = 10 ;
+        double pi = ;
+        System.out.println(pi);
+        
+    }
+}

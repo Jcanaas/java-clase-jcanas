@@ -1,0 +1,40 @@
+package ejercicios;
+import java.util.*;
+public class Travolta {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int y = sc.nextInt();
+        int x = sc.nextInt();
+        int z = sc.nextInt();
+        
+        int[][] matriu = new int[x][y];
+        matriu = JCllenarmatriz(matriu);
+        JCllenarmatriz2(matriu, z);
+        
+        sc.close();
+    }
+    public static String JCllenarmatriz2(int[][] matriu, int z) {
+        String r = "";
+
+		for (int i = 0; i < matriu.length; i++) {
+			for (int w = 0; w < (matriu[0].length); w++) {
+				if(matriu[i][w - 1] == z && matriu[i][w - 1] == z) {
+					r = 
+				}
+			}
+		}
+		return r;
+	}
+    public static int[][] JCllenarmatriz(int[][] matriu) {
+        Scanner sc = new Scanner(System.in);
+
+		for (int i = 0; i < matriu.length; i++) {
+			for (int w = 0; w < (matriu[0].length); w++) {
+				matriu[i][w] = sc.nextInt();
+			}
+		}
+		sc.close();
+		return matriu;
+	}
+    
+}

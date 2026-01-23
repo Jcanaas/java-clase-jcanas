@@ -1,0 +1,46 @@
+package ejercicios;
+import java.util.*;
+public class Zebra {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int y = sc.nextInt();
+        int x = sc.nextInt();
+        int z = sc.nextInt();
+        String[][] matriu = new String[x][y];
+        matriu = JCllenarmatriz(matriu, z);
+        print_matriz(matriu);
+        sc
+    }
+    static void print_matriz(String[][] matriu) {
+		for (int i = 0; i < matriu.length; i++) {
+			for (int w = 0; w < (matriu[0].length); w++) {
+				System.out.print(matriu[i][w] + " ");
+			}
+			System.out.println();
+		}
+	}
+    
+    
+    
+    public static String[][] JCllenarmatriz(String[][] matriu, int z) {
+    	int c = 0;
+		for (int i = 0; i < matriu.length; i++) {
+			
+			for (int w = 0; w < (matriu[0].length); w++) {
+				if(i >= z) {
+					
+					if(c % 2 == 0) {
+						matriu[i][w] = "1";
+					}else {
+						matriu[i][w] = "0";
+					}
+					
+				}	
+				else {matriu[i][w] = "0";}
+				
+			
+			}c++;
+		}
+		return matriu;
+	}
+}

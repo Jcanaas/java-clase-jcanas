@@ -63,3 +63,29 @@ static List<Integer> JCsinRepetidos(List<Integer> lista) {
 	}
 	return resultado;
 }
+
+
+
+public static int[][] JCllenarmatriz(int y, int x) {
+    int[][] matriu = new int[x][y];
+	for(int i = 0; i < matriu.length; i++) {
+    	for(int w = 0; w < (matriu[0].length); w++) {
+    		matriu[i][w] = sc.nextInt();
+    	}
+    }
+	return matriu;
+}
+
+static void JCllenarmatriz(String[][] matriu) {
+	for(int i = 0; i < matriu.length; i++) {
+    	for(int w = 0; w < (matriu[0].length); w++) {
+    		System.out.print(matriu[i][w] + " ");
+    	}
+    	System.out.println();
+    }   	
+}
+
+
+public static boolean esticDins(int f, int c, int[][] matriu) {
+    return f >= 0 && f < matriu.length && c >= 0 && c < matriu[0].length;
+}

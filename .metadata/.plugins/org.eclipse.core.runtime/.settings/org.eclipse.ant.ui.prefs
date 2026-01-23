@@ -1,5 +1,5 @@
 eclipse.preferences.version=1
-org.eclipse.ant.ui.customtemplates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.ant.ui.customtemplates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="org.eclipse.ant.ui.templateContextType.buildFile" deleted\="false" description\="llena una matriz" enabled\="true" name\="Llenar_matric">static void llenarmatriz(List&lt;Integer&gt; int y, int x) {\n    int[][] matriu \= new int[x][y];\n\tfor(int i \= 0; i &lt; matriu.length; i++) {\n    \tfor(int w \= 0; w &lt; (matriu[0].length); w++) {\n    \t\tmatriu[i][w] \= sc.nextInt();\n    \t}\n    }\n\treturn matriu;\n}</template></templates>
 problem_classpath=warning
 problem_imports=warning
 problem_properties=ignore

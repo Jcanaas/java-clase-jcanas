@@ -1,0 +1,34 @@
+package ejercicios;
+
+import java.util.*;
+
+public class Oftalmólogo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+
+        
+        
+        String[][] matriu = new String[2][2];
+        matriu[0][0] = "1";
+        matriu[0][1] = "2";
+        matriu[1][0] = "3";
+        matriu[1][1] = "4";
+        String input = sc.nextLine();
+        for(int i = 0; i < input.length(); i++) {
+        	if(input.charAt(i) =='H') {
+        		int 00 = matriu[0][0]
+        		matriu[0][0] = "1";
+                matriu[0][1] = "2";
+                matriu[1][0] = "3";
+                matriu[1][1] = "4";
+        	}else if(input.charAt(i) =='V'){
+        		
+        	}else {
+        		System.out.println("Error");
+        	} 
+        }
+            
+            		
+    }
+}

@@ -1,0 +1,15 @@
+package ejercicios;
+import java.util.*;
+public class Travolta {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int y = sc.nextInt();
+        int x = sc.nextInt();
+        int z = sc.nextInt();
+        String[][] matriu = new String[x][y];
+        matriu = JCllenarmatriz(matriu, z);
+        print_matriz(matriu);
+        sc.close();
+    }
+    
+}

@@ -1,0 +1,97 @@
+package ajedrez;
+
+import java.util.*;
+
+public class ajedrez {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String[][] tablero = new String[8][8];
+        tablero = reiniciar_tablero();
+        while(true){
+        int eleccio = menu();
+        if(eleccio == 1) {
+        	play();
+        }
+        else if(eleccio == 2) {
+        	tablero = reiniciar_tablero();
+        	print_tablero(tablero);
+        }
+        	
+        else if(eleccio == 3) {
+         System.out.println("Saliendo...");
+         System.exit(5);
+        }
+        else{
+        	System.out.println("Error");
+        }
+        }
+        
+    }
+    static int menu() {
+        Scanner sc = new Scanner(System.in);
+    	System.out.println("---------Ajedrez by JCañas-----------");
+    	System.out.println("-------------------------------------");
+    	System.out.println("---1. Jugar--------------------------");
+    	System.out.println("---2. Reiniciar----------------------");
+    	System.out.println("---3. exit---------------------------");
+    	System.out.println("-------------------------------------");
+    	System.out.print("¿Que quieres hacer?");
+    	int input = sc.nextInt();
+    	while(input != 1 && input != 2 && input != 3 ){
+    		System.out.print("Selecciona un valor valido");
+    		input = sc.nextInt();
+    	}
+    	System.out.println();    	
+        return input;
+    }
+    static String play() {
+        Scanner sc = new Scanner(System.in);
+
+    	String input1 = "";
+    	System.out.println("Comienzan las blancas, escoje una ficha pra mover" );
+    	input1 = sc.nextLine();
+    	input2 = "";
+    	while(input1 != "exit"){
+    		while( input1.length() != 2 ) {
+    			System.out.println( input1 + "No es un caracter valido, escribe otro");
+    		}
+    		
+    		
+    	}
+    	if (input1 == "exit") {
+    		System.out.println("Sortint");
+    		
+    	}
+    	
+    }
+    static String[][] reiniciar_tablero() {
+        String[][] matriu = new String[8][8];
+        
+        matriu[0][0] = "♜ "; matriu[0][1] = "♞ "; matriu[0][2] = "♝ "; matriu[0][3] = "♛ ";
+        matriu[0][4] = "♚ "; matriu[0][5] = "♝ "; matriu[0][6] = "♞ "; matriu[0][7] = "♜ ";
+        for (int i = 0; i < 8; i++) matriu[1][i] = "♟ ";
+        
+        for (int w = 2; w < 6; w++) {
+            for (int z = 0; z < 8; z++) {
+                matriu[w][z] = (w + z) % 2 == 0 ? "⬛" : "⬜";
+            }
+        }
+        
+        for (int i = 0; i < 8; i++) matriu[6][i] = "♙ ";
+        matriu[7][0] = "♖ "; matriu[7][1] = "♘ "; matriu[7][2] = "♗ "; matriu[7][3] = "♕ ";
+        matriu[7][4] = "♔ "; matriu[7][5] = "♗ "; matriu[7][6] = "♘ "; matriu[7][7] = "♖ ";
+        
+        return matriu;
+    }
+    static void print_tablero(String[][] matriu){
+    	for (int w = 0; w < 8; w++) {
+            for (int z = 0; z < 8; z++) {                
+                System.out.print(matriu[w][z]);                
+            }
+            System.out.println();
+        }    	
+    }
+    static int con(char c) {
+        return c - 'a';
+    }
+}

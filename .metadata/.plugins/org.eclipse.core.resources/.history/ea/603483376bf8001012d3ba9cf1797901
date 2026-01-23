@@ -1,0 +1,14 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class DISCOTHEQUE_DISCOTHEQUE {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int[][] matriu = new int[filas][cols];
+
+        	
+        
+        }
+}
