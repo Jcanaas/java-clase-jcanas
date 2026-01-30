@@ -1,0 +1,109 @@
+// java
+package ejercicios;
+
+import java.util.Scanner;
+
+public class sopadeletras {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        
+
+        
+            int y = sc.nextInt();
+            int x = sc.nextInt();
+            
+            char[][] matriu = JCllenarmatriz(y, x, sc);
+            int nparaules = sc.nextInt();
+            String[] par = JCllenarmatriz2(nparaules, sc);
+            Boolean[] bollist = new Boolean[nparaules];
+           
+            
+            for(int i = 0; i < nparaules; i++){
+                char[] charpar = new char[par[i].length()];
+
+            	for(int w = 0; w < par[i].length(); w++ ) {
+            		charpar[w] = par[i].charAt(w);
+            		
+            	}
+            	for (int h = 0; h < matriu.length; h++) {
+                    for (int j = 0; j < matriu[h].length; j++) {
+                    	if (matriu[h][j] == charpar[0]) {
+                    		int contadorarr = 1;
+                    		int contadorab = 1;
+                    		int contadord = 1;
+                    		int contadori = 1;
+                    		for(int c = 1; c < par[i].length(); c++ ) {
+                    			if(esticDins(h+c, j, matriu)) {
+                    				if(matriu[h+c][j] == charpar[c]) {
+                    				contadorab++;}
+                    			}
+                    			if(esticDins(h-c, j, matriu)) {
+                    				if(matriu[h-c][j] == charpar[c]){
+                    				contadorarr++;}
+                    			}
+                    			if(esticDins(h, j+c, matriu)) {
+                    				if(matriu[h][j+c] == charpar[c]){
+                    				contadord++;}
+                    			}
+                    			if(esticDins(h, j-c, matriu)) {
+                    				if(matriu[h][j-c] == charpar[c]){
+                    				contadori++;
+                    			}
+                    		}
+                    	}
+                    	if(contadorab == par[i].length() || contadorarr == par[i].length() || contadord == par[i].length() || contadori == par[i].length()) {
+                    		bollist[i] = true;
+                    	}
+                    }
+            	}
+            	}}
+            	for(int i = 0 ; i < bollist.length; i++) {
+					if(bollist[i] == null) {
+						System.out.println("false");	
+					}else {
+						System.out.println("true");
+					}
+				}
+            
+            
+            
+            
+                    
+                
+            }
+        
+
+    public static char[][] JCllenarmatriz(int filas, int cols, Scanner sc) {
+        char[][] matriu = new char[filas][cols];
+        for (int i = 0; i < filas; i++) {
+            int filled = 0;
+            while (filled < cols) {
+                String tok = sc.next();
+                if (tok.length() == cols && filled == 0) {
+                    for (int w = 0; w < cols; w++) matriu[i][w] = tok.charAt(w);
+                    filled = cols;
+                } else if (tok.length() == 1) {
+                    matriu[i][filled++] = tok.charAt(0);
+                } else {
+                    for (int k = 0; k < tok.length() && filled < cols; k++) {
+                        matriu[i][filled++] = tok.charAt(k);
+                    }
+                }
+            }
+        }
+        return matriu;
+    }
+    
+    public static String[] JCllenarmatriz2(int cols, Scanner sc) {
+        String[] matriu = new String[cols];
+        for (int i = 0; i < cols; i++) {
+            matriu[i] = sc.next();
+        }
+        return matriu;
+    }
+
+    public static boolean esticDins(int f, int c, char[][] matriu) {
+        return f >= 0 && f < matriu.length && c >= 0 && c < matriu[f].length;
+    }
+}

@@ -1,0 +1,92 @@
+package ExamenMatriuProva;
+import java.util.*;
+
+public class ex1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int rows = sc.nextInt();
+        int cols = sc.nextInt();
+        int n = sc.nextInt();
+        
+        for(int casos = 0; casos < n;){
+        	int[][] matriu = JCllenarmatriz(sc, 3, 3);
+        	
+        	int[][] sumas= new int[3][3];
+        	boolean filas = true;
+        	boolean columnas = true;
+        	boolean daigonal = true;
+        	for(int i = 0; i < 3; i++) {
+        		int suma = 0;
+        		for(int w = 0; w < 3; w++) {
+            		suma = suma + matriu[i][w];
+        		}
+        		sumas[0][i] = suma;
+        		
+        		}
+        		for(int i = 0; i < matriu[0].length - 1; i++){
+        			if(sumas[0][i] == sumas[0][i + 1] && filas){
+        				
+        			}else {filas = false;}
+        		}
+        		
+        	 
+        	for(int i = 0; i < 3; i++) {
+        		int suma = 0;
+        		for(int w = 0; w < 3; w++) {
+        			suma = suma + matriu[w][i];
+        		}
+        		sumas[1][i] = suma;
+    		
+    			}
+    			for(int i = 0; i < matriu[1].length - 1; i++){
+    				if(sumas[1][i] == sumas[1][i + 1] && columnas){
+    				
+    				}else {columnas = false;}
+    			}
+    			
+    			
+    			
+    			
+            		int sumad1 = 0;
+            		for(int w = 0; w < 3; w++) {
+            			sumad1 = sumad1 + matriu[w][w];
+            		}
+            		sumas[2][0] = sumad1;
+            		int sumad2 = 0;
+            		for(int w = matriu[0].length; w > 0; w--) {
+            			sumad2 = sumad2 + matriu[w][w];
+            		}
+            		sumas[2][1] = sumad2;
+            		if(sumas[2][0] != sumas[2][1]) {
+            			daigonal = false;
+            		}
+            		
+            		if(fiagonal &&) {
+            			
+            		}
+            		
+        		
+        			
+        			
+    		
+    	}
+        	}
+            
+                
+            
+        
+    
+
+    public static int[][] JCllenarmatriz(Scanner sc, int rows, int cols) {
+        int[][] matriu = new int[rows][cols];
+        for (int i = 0; i < rows; i++) {
+            for (int w = 0; w < cols; w++) {
+                matriu[i][w] = sc.nextInt();
+            }
+        }
+        return matriu;
+    }
+    public static boolean esticDins(int f, int c, char[][] matriu) {
+        return f >= 0 && f < matriu.length && c >= 0 && c < matriu[f].length;
+    }
+}

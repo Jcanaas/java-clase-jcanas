@@ -14,22 +14,24 @@ public class Best_Athena_EUW {
 
             int x = sc.nextInt(); 
             int y = sc.nextInt(); 
+            int r = sc.nextInt();
 
             if (!esticDins(x, y, matriu) || matriu[x][y] != 1) {
                 System.out.println(-1);
             } else {
                 int enemics = 0;
-                for (int dx = -1; dx <= 1; dx++) {
+                for (int dx = -r; dx <= r; dx++) {
                     for (int dy = -1; dy <= 1; dy++) {
-                        if (dx == 0 && dy == 0) {
+                        if ((dx == 0 && dy == 0) || (dx != 0 && dy != 0)) {
                             
                         } else {
                             int nx = x + dx;
                             int ny = y + dy;
-                            if (esticDins(nx, ny, matriu) && matriu[nx][ny] == 2) {
+                            if (esticDins(nx, ny, matriu) {
+                            	if(matriu[nx][ny] == 2){
                                 enemics++;
-                            }
-                        }
+                            }}
+                        
                     }
                 }
                 System.out.println(enemics);
@@ -39,7 +41,7 @@ public class Best_Athena_EUW {
     }
 
     public static int[][] JCllenarmatriz(int filas, int cols, Scanner sc) {
-        int[][] matriu = new int[filas][cols];
+        int[][][] matriu = new int[filas][cols];
         for (int i = 0; i < matriu.length; i++) {
             for (int w = 0; w < matriu[0].length; w++) {
                 matriu[i][w] = sc.nextInt();

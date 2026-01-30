@@ -1,0 +1,26 @@
+// java
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Tetris {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        
+
+        
+            int y = sc.nextInt();
+            int x = sc.nextInt();
+            
+            int[][] matriu = JCllenarmatriz(filas, cols, sc);
+                
+            }
+        
+
+    
+
+    public static boolean esticDins(int f, int c, char[][] matriu) {
+        return f >= 0 && f < matriu.length && c >= 0 && c < matriu[f].length;
+    }
+}

@@ -1,0 +1,25 @@
+// java
+package ejercicios;
+
+import java.util.Scanner;
+
+public class sopadeletras {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        
+
+        
+            int y = sc.nextInt();
+            int x = sc.nextInt();
+            
+              
+            }
+        
+
+    
+
+    public static boolean esticDins(int f, int c, char[][] matriu) {
+        return f >= 0 && f < matriu.length && c >= 0 && c < matriu[f].length;
+    }
+}

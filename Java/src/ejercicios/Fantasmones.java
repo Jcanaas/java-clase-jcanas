@@ -18,13 +18,13 @@ public class Fantasmones {
         	int x2 = sc.nextInt();
         	if(i == 0) {
         		matriu[y2][x2] = "b";
+        		xb = x2;
         		yb = y2;
-        		xb = x2;}
+        		}
         	else {
-            	matriu[y2][x2] = "1";}
-
-        		
+            	matriu[y2][x2] = "1";}        		
         	}
+        
         int count = 0;
         int count2 = 0;
         for (int dx = -1; dx <= 1; dx++) {

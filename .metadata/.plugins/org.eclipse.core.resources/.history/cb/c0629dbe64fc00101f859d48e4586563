@@ -1,0 +1,69 @@
+package ExamenMatriuProva;
+import java.util.*;
+
+public class ex2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        	int x = sc.nextInt();
+        	int y = sc.nextInt();
+        
+        
+        	int[][] matriu = JCllenarmatriz(sc, y, x);
+        	
+        	int xi = sc.nextInt();
+        	int yi = sc.nextInt();
+        	
+        	int sam = 0;
+        	int sav = 0;
+        	int sd = 0;
+        	int se = 0;
+        	
+        	int xn = xi;
+        	int yn = yi;
+        	while(esticDins(yn, xn, matriu)){
+        		sam = sam + matriu[yn][xn];
+        		yn--;
+        	}
+        	xn = xi;
+        	yn = yi;
+        	while(esticDins(yn, xn, matriu)){
+        		sam = sam + matriu[yn][xn];
+        		yn++;
+        	}
+        	xn = xi;
+        	yn = yi;
+        	while(esticDins(yn, xn, matriu)){
+        		sd = sd + matriu[yn][xn];
+        		xn++;
+        	}
+        	xn = xi;
+        	yn = yi;
+        	while(esticDins(yn, xn, matriu)){
+        		se = se + matriu[yn][xn];
+        		xn--;
+        	}
+        	if(sam > sav && sam > sd && sam > se) {
+        		Sys
+        	}
+        	
+        	}
+            
+                
+            
+        
+    
+
+    public static int[][] JCllenarmatriz(Scanner sc, int rows, int cols) {
+        int[][] matriu = new int[rows][cols];
+        for (int i = 0; i < rows; i++) {
+            for (int w = 0; w < cols; w++) {
+                matriu[i][w] = sc.nextInt();
+            }
+        }
+        return matriu;
+    }
+    public static boolean esticDins(int f, int c, int[][] matriu) {
+        return f >= 0 && f < matriu.length && c >= 0 && c < matriu[f].length;
+    }
+}

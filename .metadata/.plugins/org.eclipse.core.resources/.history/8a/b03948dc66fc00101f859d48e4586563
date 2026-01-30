@@ -1,0 +1,70 @@
+// java
+package ejercicios;
+
+import java.util.Scanner;
+
+public class sopadeletras {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+
+        
+            int y = sc.nextInt();
+            int x = sc.nextInt();
+            
+            char[][] matriu = JCllenarmatriz(y, x, sc);
+            int nparaules = sc.nextInt();
+            String[] matriu = JCllenarmatriz2(nparaules, sc);
+            
+            
+            for (int i = 0; i < matriu.length; i++) {
+                for (int j = 0; j < matriu[i].length; j++) {
+                    if (matriu[i][j] == 'O') {
+                        if (esticDins(i, j + 1, matriu) && matriu[i][j + 1] == 'S') {
+                            if (esticDins(i, j + 2, matriu) && matriu[i][j + 2] == 'O') {
+                                contador[c]++;
+                            }
+                        }
+                        if (esticDins(i + 1, j, matriu) && matriu[i + 1][j] == 'S') {
+                            if (esticDins(i + 2, j, matriu) && matriu[i + 2][j] == 'O') {
+                                contador[c]++;
+                            }
+                        }
+                        if (esticDins(i + 1, j + 1, matriu) && matriu[i + 1][j + 1] == 'S') {
+                            if (esticDins(i + 2, j + 2, matriu) && matriu[i + 2][j + 2] == 'O') {
+                                contador[c]++;
+                            }
+                        }
+                        if (esticDins(i - 1, j + 1, matriu) && matriu[i - 1][j + 1] == 'S') {
+                            if (esticDins(i - 2, j + 2, matriu) && matriu[i - 2][j + 2] == 'O') {
+                                contador[c]++;
+                            }
+                        }
+                    
+                
+            }
+        
+
+    public static char[][] JCllenarmatriz(int filas, int cols, Scanner sc) {
+        char[][] matriu = new char[filas][cols];
+        for (int i = 0; i < filas; i++) {
+            String linea = sc.next();
+            for (int w = 0; w < cols; w++) {
+                matriu[i][w] = linea.charAt(w);
+            }
+        }
+        return matriu;
+    }
+    public static String[] JCllenarmatriz2(int cols, Scanner sc) {
+        String[] matriu = new String[cols];
+        for (int i = 0; i < cols; i++) {
+            matriu[i] = sc.next();
+        }
+        return matriu;
+    }
+
+    public static boolean esticDins(int f, int c, char[][] matriu) {
+        return f >= 0 && f < matriu.length && c >= 0 && c < matriu[f].length;
+    }
+}

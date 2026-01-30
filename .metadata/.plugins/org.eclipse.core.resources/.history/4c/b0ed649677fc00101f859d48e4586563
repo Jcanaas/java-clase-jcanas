@@ -1,0 +1,52 @@
+// java
+package ejercicios;
+
+import java.util.Scanner;
+
+public class sopadeletras {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        
+
+        
+            int y = sc.nextInt();
+            int x = sc.nextInt();
+            
+              
+            }
+        
+
+    public static char[][] JCllenarmatrizchar(int filas, int cols, Scanner sc) {
+        char[][] matriu = new char[filas][cols];
+        for (int i = 0; i < filas; i++) {
+            int filled = 0;
+            while (filled < cols) {
+                String tok = sc.next();
+                if (tok.length() == cols && filled == 0) {
+                    for (int w = 0; w < cols; w++) matriu[i][w] = tok.charAt(w);
+                    filled = cols;
+                } else if (tok.length() == 1) {
+                    matriu[i][filled++] = tok.charAt(0);
+                } else {
+                    for (int k = 0; k < tok.length() && filled < cols; k++) {
+                        matriu[i][filled++] = tok.charAt(k);
+                    }
+                }
+            }
+        }
+        return matriu;
+    }
+    
+    public static String[] JCllenarmatriz2(int cols, Scanner sc) {
+        String[] matriu = new String[cols];
+        for (int i = 0; i < cols; i++) {
+            matriu[i] = sc.next();
+        }
+        return matriu;
+    }
+
+    public static boolean esticDins(int f, int c, char[][] matriu) {
+        return f >= 0 && f < matriu.length && c >= 0 && c < matriu[f].length;
+    }
+}
