@@ -1,0 +1,31 @@
+import java.util.*;
+
+public class HashMapExample {
+    public static void main(String[] args) {
+        Map<String,Integer> map = new HashMap<>(8, 0.75f); // capacidad inicial 8, load factor 0.75
+
+        map.put("manzanas", 3);                 // inserta ("manzanas" -> 3)
+        map.putIfAbsent("naranjas", 5);         // inserta solo si no existe "naranjas"
+        map.put("peras", null);                 // admite null como valor
+
+        System.out.println(map.get("manzanas"));           // devuelve 3
+        System.out.println(map.getOrDefault("platanos", 0)); // no existe -> imprime 0
+
+        map.computeIfAbsent("uvas", k -> 10);  // si no existe "uvas", la crea con 10
+        map.compute("manzanas", (k, v) -> (v == null) ? 1 : v + 2); // actualiza: 3 -> 5
+
+        map.merge("naranjas", 2, Integer::sum); // naranjas: 5 + 2 = 7
+
+        map.replace("peras", 1); // si "peras" estaba presente (aunque su valor era null), lo reemplaza por 1
+        map.remove("peras");     // elimina la entrada "peras"
+
+        // Iteración segura para lectura simple:
+        for (Map.Entry<String,Integer> e : map.entrySet()) {
+            System.out.println(e.getKey() + " -> " + e.getValue());
+        }
+
+        // Si hay múltiples hilos que modifican el mapa:
+        Map<String,Integer> syncMap = Collections.synchronizedMap(new HashMap<>());
+        // Para concurrencia de alto rendimiento, usar ConcurrentHashMap en lugar de HashMap.
+    }
+}

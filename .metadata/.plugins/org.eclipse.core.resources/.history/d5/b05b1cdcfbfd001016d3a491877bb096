@@ -1,0 +1,9 @@
+package OBJETOS;
+import java.util.*;
+
+
+public class Capitals {
+    public static void main(String[] args) {
+        Map<String,Integer> map = new HashMap<>(); 
+    }
+}

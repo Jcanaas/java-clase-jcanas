@@ -1,0 +1,14 @@
+package OBJETOS;
+import java.util.*;
+
+
+public class Capitals {
+    public static void main(String[] args) {
+        Map<String,Integer> map = new HashMap<>();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(i) {
+        	
+        }
+    }
+}
